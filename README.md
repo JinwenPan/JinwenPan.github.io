@@ -1,6 +1,6 @@
 # Jinwen Pan's Academic Website
 
-This website generator is based on the work by Federico Mora. The original repository can be found at [https://github.com/FedericoAureliano/FedericoAureliano.github.io](https://github.com/FedericoAureliano/FedericoAureliano.github.io). You can see an example of the template in use at Federico's personal website: [https://federico.morarocha.ca/](https://federico.morarocha.ca/).
+This website generator is based on the work by Federico Mora Rocha. The original repository can be found at [https://github.com/FedericoAureliano/FedericoAureliano.github.io](https://github.com/FedericoAureliano/FedericoAureliano.github.io). You can see an example of the template in use at Federico's personal website: [https://federico.morarocha.ca/](https://federico.morarocha.ca/).
 
 Feel free to use this website generator for your own academic website. While there's no need to ask for permission or credit the original author on your site, please respect the software license in LICENSE.md.
 
