@@ -1,8 +1,8 @@
-# Federico's Academic Website
+# Jinwen Pan's Academic Website
 
-Feel free to use this website generator. No need to ask for permission or to credit me on your site. If you do use it, I'd love to hear how it went :)
+This website generator is based on the work by Federico Mora. The original repository can be found at [https://github.com/FedericoAureliano/FedericoAureliano.github.io](https://github.com/FedericoAureliano/FedericoAureliano.github.io). You can see an example of the template in use at Federico's personal website: [https://federico.morarocha.ca/](https://federico.morarocha.ca/).
 
-**NOTE**: while I do not ask that you credit me on your site, please respect the software license in LICENSE.md.
+Feel free to use this website generator for your own academic website. While there's no need to ask for permission or credit the original author on your site, please respect the software license in LICENSE.md.
 
 ## Creating Your Website
 1. Fill in the ```.json``` files in the ```data``` folder.
