@@ -302,7 +302,7 @@ def build_authors(authors, mentoring_json: List[Dict[str, str]]):
     authors_text = "".join(authors_split).replace('<a href="', "").replace('">', "").replace('</a>', '').replace('<sup class="bigscreen">*</sup>', '')
     authors_text = re.sub(r'http\S+', '', authors_text)
     if len(authors_text) > 75:
-        authors_split.insert(len(authors_split) // 2, '<br class="bigscreen">')
+        authors_split.insert((len(authors_split) // 2) + 1, '<br class="bigscreen">')
     item += "".join(authors_split)
     return item
 
@@ -360,7 +360,7 @@ def build_pubs_inner(pubs, mentoring_json: List[Dict[str, str]], title: str, ful
 
             title_split = p.fields["title"].split()
             if len(p.fields["title"]) > 75:
-                title_split.insert(len(title_split) // 2, '<br class="bigscreen">')
+                title_split.insert((len(title_split) // 2) + 1, '<br class="bigscreen">')
             paper_title = " ".join(title_split)
 
             paper_map = {
