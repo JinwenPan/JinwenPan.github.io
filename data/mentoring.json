@@ -1,6 +1,12 @@
 [
     {
         "year"    : "2023",
+        "name"    : "Haley Lepe",
+        "notes"   : [],
+        "category": "MiraCosta Undergraduate Students"
+    },
+    {
+        "year"    : "2023",
         "name"    : "Amar Shah",
         "notes"   : [],
         "category": "UC Berkeley Undergraduate Students"

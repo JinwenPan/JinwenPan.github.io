@@ -1,37 +1,37 @@
 header {
-    background-color: #1CA3D1;
+    background-color: #3ab6c0;
 }
 
 #scroller {
-    background-color: #D14A1C;
+    background-color: #1e73b4;
 }
 
 body {
-    background-color: black;
-    color: #EEEEEE;
+    background-color: #050b1b;
+    color: #f3f2f6;
 }
 
 h1,
 h2,
 h3 {
-    color: #EEEEEE;
+    color: #f3f2f6;
 }
 
 a {
-    color: #1CA3D1;
+    color: #3ab6c0;
 }
 
 a:hover {
-    color: #D14A1C;
+    color: #1e73b4;
 }
 
 .hbar {
-    color: #AAAAAA;
+    color: #f3f2f6;
     border-bottom-width: 1px;
 }
 
 h3 {
-    border-bottom: 1px #AAAAAA dashed;
+    border-bottom: 1px #f3f2f6 dashed;
 }
 
 .paper-icon {
@@ -39,5 +39,5 @@ h3 {
 }
 
 .headshot {
-    border: 1px solid black;
+    border: 1px solid #050b1b;
 }
