@@ -194,7 +194,7 @@ def replace_placeholders(text: str, map: Dict[str, str]):
 def header(has_dark):
     if has_dark:
         button = """<label class="switch-mode">
-    <input type="checkbox" id="mode">
+    <input type="checkbox" id="mode" checked>
     <span class="slider round"></span>
 </label>
 <script src="mode.js"></script>
@@ -422,8 +422,8 @@ def build_profile(profile: Dict[str, str]):
     if "research" in profile:
         profile_html += "<p>" + "</p><p>".join(profile["research"].split("\n")) + "</p>"
     profile_html += "\n<p>Here is my "
-    profile_html += '<a href="%s">CV</a> and ' % profile["cv"]
-    profile_html += '<a href="%s">Google Scholar</a>. ' % profile["scholar"]
+    # profile_html += '<a href="%s">CV</a> and ' % profile["cv"]
+    profile_html += '<a href="%s">GitHub</a>. ' % profile["GitHub"]
     profile_html += "You can reach me at %s." % profile["email"]
     profile_html += "</p>\n"  # close description paragraph
     profile_html += "</div>\n"  # close profile
@@ -706,14 +706,14 @@ if __name__ == "__main__":
         "about" in profile_json,
         'Must include a "about" field in data/profile.json!',
     )
-    fail_if_not("cv" in profile_json, 'Must include a "cv" field in data/profile.json!')
+    # fail_if_not("cv" in profile_json, 'Must include a "cv" field in data/profile.json!')
     fail_if_not(
         "email" in profile_json, 'Must include a "email" field in data/profile.json!'
     )
-    fail_if_not(
-        "scholar" in profile_json,
-        'Must include a "scholar" field in data/profile.json!',
-    )
+    # fail_if_not(
+    #     "scholar" in profile_json,
+    #     'Must include a "scholar" field in data/profile.json!',
+    # )
 
     # These next four can be empty
     news_json = read_data("data/news.json", optional=True)

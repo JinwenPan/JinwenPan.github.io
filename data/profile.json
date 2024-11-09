@@ -1,9 +1,10 @@
 {
     "headshot" : "images/jinwen.jpg",
     "about"    : "My name is Jinwen Pan. I am a master's student in computational science and engineering at the Technical University of Munich. Before Munich, I completed a B.S. in materials physics at Fudan University.",
-    "research" : "I am interested in automated reasoning, programming language theory, and formal methods. Specifically, I am excited about useful languages that theoretically and empirically lend themselves to efficient reasoning.",
+    "research" : "I am interested in high-performance computing, scientific computing, and computer architecture. Specifically, I am excited about developing efficient algorithms and architectures that theoretically optimize performance while also demonstrating empirical scalability and robustness in real-world scientific applications.",
+    "GitHub"   : "https://github.com/JinwenPan",
     "cv"       : "https://federico.morarocha.ca/cv/cv.pdf",
-    "email"    : "fmora@cs.berkeley.edu",
+    "email"    : "jinwen.pan@tum.de",
     "scholar"  : "https://scholar.google.com/citations?user=mm91pq0AAAAJ&hl",
-    "website"  : "federico.morarocha.ca"
+    "website"  : "https://jinwenpan.github.io/"
 }
