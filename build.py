@@ -398,7 +398,7 @@ def build_pubs(pubs, mentoring_json: List[Dict[str, str]], full: bool):
     
 
     pubs_html += '<div class="hbar"></div>\n'
-    pubs_html += '<small class="bigscreen" style="font-weight: 300; float: right; padding-top: 0.5em">* denotes undergraduate research mentee</small>\n'
+    # pubs_html += '<small class="bigscreen" style="font-weight: 300; float: right; padding-top: 0.5em">* denotes undergraduate research mentee</small>\n'
     pubs_html += '<div id="publications">\n'
 
     titles = get_pub_titles(pubs, full)
