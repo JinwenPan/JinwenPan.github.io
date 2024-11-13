@@ -1,7 +1,7 @@
 {
     "headshot" : "images/jinwen.jpg",
     "about"    : "My name is Jinwen Pan. I am a master's student in computational science and engineering at the Technical University of Munich. Before Munich, I completed a B.S. in materials physics at Fudan University.",
-    "research" : "I am interested in high-performance computing, scientific computing, and computer architecture. Specifically, I am excited about developing efficient algorithms and architectures that theoretically optimize performance while also demonstrating empirical scalability and robustness in real-world scientific applications.",
+    "research" : "I am interested in high-performance computing, scientific computing, computer architecture, and computer network. Specifically, I am excited about developing efficient algorithms and architectures that theoretically optimize performance while also demonstrating empirical scalability and robustness in real-world scientific applications.",
     "GitHub"   : "https://github.com/JinwenPan",
     "cv"       : "https://federico.morarocha.ca/cv/cv.pdf",
     "email"    : "jinwen.pan@tum.de",
