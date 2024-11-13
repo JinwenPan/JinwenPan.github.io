@@ -418,9 +418,9 @@ def build_profile(profile: Dict[str, str]):
     profile_html += (
         '<img class="headshot" src="%s" alt="Headshot"/>\n' % profile["headshot"]
     )
-    profile_html += '<p style="text-align: justify;">' + "</p><p style='text-align: justify;'>".join(profile["about"].split("\n")) + "</p>"
+    profile_html += "<p>" + "</p><p>".join(profile["about"].split("\n")) + "</p>"
     if "research" in profile:
-        profile_html += '<p style="text-align: justify;">' + "</p><p style='text-align: justify;'>".join(profile["research"].split("\n")) + "</p>"
+        profile_html += "<p>" + "</p><p>".join(profile["research"].split("\n")) + "</p>"
     profile_html += "\n<p>Here is my "
     # profile_html += '<a href="%s">CV</a> and ' % profile["cv"]
     profile_html += '<a href="%s">GitHub</a>. ' % profile["GitHub"]
