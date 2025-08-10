@@ -1,0 +1,438 @@
+@font-face {
+font-family: 'Lora';
+src: url('../fonts/lora-v36-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Lora';
+src: url('../fonts/lora-v36-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Lora';
+src: url('../fonts/lora-v36-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+@font-face {
+font-family: 'Lora';
+src: url('../fonts/lora-v36-latin-700.woff2') format('woff2');
+font-weight: 700;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Lora';
+src: url('../fonts/lora-v36-latin-700italic.woff2') format('woff2');
+font-weight: 700;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Space Grotesk';
+src: url('../fonts/space-grotesk-v21-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Space Grotesk';
+src: url('../fonts/space-grotesk-v21-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Fira Sans';
+src: url('../fonts/fira-sans-v17-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Fira Sans';
+src: url('../fonts/fira-sans-v17-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Fira Sans';
+src: url('../fonts/fira-sans-v17-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Open Sans';
+src: url('../fonts/open-sans-v43-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Open Sans';
+src: url('../fonts/open-sans-v43-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Open Sans';
+src: url('../fonts/open-sans-v43-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Playfair Display';
+src: url('../fonts/playfair-display-v39-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Playfair Display';
+src: url('../fonts/playfair-display-v39-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Playfair Display';
+src: url('../fonts/playfair-display-v39-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'JetBrains Mono';
+src: url('../fonts/jetbrains-mono-v23-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'JetBrains Mono';
+src: url('../fonts/jetbrains-mono-v23-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'JetBrains Mono';
+src: url('../fonts/jetbrains-mono-v23-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto Mono';
+src: url('../fonts/roboto-mono-v30-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Roboto Mono';
+src: url('../fonts/roboto-mono-v30-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Roboto Mono';
+src: url('../fonts/roboto-mono-v30-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/roboto-v48-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/roboto-v48-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/roboto-v48-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather-v32-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather-v32-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+@font-face {
+font-family: 'Merriweather';
+src: url('../fonts/merriweather-v32-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Crimson Pro';
+src: url('../fonts/crimson-pro-v27-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Crimson Pro';
+src: url('../fonts/crimson-pro-v27-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+@font-face {
+font-family: 'Crimson Pro';
+src: url('../fonts/crimson-pro-v27-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Inter';
+src: url('../fonts/inter-v19-latin-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Inter';
+src: url('../fonts/inter-v19-latin-italic.woff2') format('woff2');
+font-weight: 400;
+font-style: italic;
+font-display: swap;
+}
+@font-face {
+font-family: 'Inter';
+src: url('../fonts/inter-v19-latin-500.woff2') format('woff2');
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Noto Sans SC';
+src: url('./fonts/noto-sans-sc-v38-chinese-simplified-regular.woff2') format('woff2');
+font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+
+body {
+    margin: 0;
+    background-color: #121212;
+    overflow-x: hidden;
+    font-family: 'Lora', serif;
+    color: #cccccc;
+    line-height: 1.6;
+    font-size: 1rem
+}
+
+.zh, :lang(zh) {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+#bio {
+    position: relative;
+    padding-left: 0px;
+}
+
+.bio-avatar {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    object-fit: cover;
+    margin: 0 1.4rem 0.5rem 0;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+main {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 1rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    /* border-bottom: 1px solid #333;
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem; */
+    color: #cccccc;
+}
+
+.lora-strong {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.link-bar {
+    margin-bottom: 0rem;
+}
+
+.monolinks {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.news-date {
+    font-variant-numeric: tabular-nums;
+}
+
+footer {
+margin-top: 3rem;
+font-size: 0.8rem;
+color: #777;
+text-align: center;
+}
+
+/* --- Floating Text Animation --- */
+.floating-text {
+    word-spacing: 0.2em; 
+  }
+
+.floating-text span {
+display: inline-block;
+}
+
+@keyframes float {
+from {
+    transform: translateY(-2px);
+}
+to {
+    transform: translateY(2px);
+}
+}
+
+.floating-text span:nth-child(odd) {
+animation: float 4s ease-in-out infinite alternate;
+}
+
+.floating-text span:nth-child(even) {
+animation: float 4s ease-in-out infinite alternate-reverse;
+}
+
+#publications {
+margin: 3em 0;
+}
+
+.pub-entry {
+margin-bottom: 2em;
+padding-left: 1em;
+border-left: 3px solid #888;
+}
+
+.pub-entry div {
+margin: 0.3em 0;
+word-wrap: break-word;
+overflow-wrap: break-word;
+line-height: 1.4em;
+}
+
+.pub-title {
+font-weight: bold;
+font-size: 1.05em;
+color: #ddd;
+}
+
+.pub-authors {
+color: #aaa;
+}
+
+.pub-venue {
+font-style: italic;
+color: #777;
+}
+
+.pub-links a {
+margin-right: 1em;
+color: #66ccff;
+text-decoration: none;
+}
+
+.pub-links a:hover {
+text-decoration: underline;
+}
+
+#news ul, #publications ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .venue {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    padding-right: 1rem;
+  }
+
+
+  #publications ul li {
+    margin-bottom: 1rem;  
+  }
