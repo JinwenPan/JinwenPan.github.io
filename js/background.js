@@ -86,15 +86,10 @@
   var points = new THREE.Points(geometry, material);
   scene.add(points);
 
-  // Throttle to ~30fps — more than enough for slow-rotating particles
   var animationId;
-  var lastFrame = 0;
-  var frameInterval = 1000 / 30;
 
   function animate(t) {
     animationId = requestAnimationFrame(animate);
-    if (t - lastFrame < frameInterval) return;
-    lastFrame = t;
     material.uniforms.uTime.value = t * 0.001;
     renderer.render(scene, camera);
   }
@@ -116,7 +111,6 @@
     if (document.hidden) {
       cancelAnimationFrame(animationId);
     } else {
-      lastFrame = 0;
       animate(0);
     }
   });
