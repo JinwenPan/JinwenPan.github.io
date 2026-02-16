@@ -199,7 +199,11 @@ li {
 }
 
 #publications {
-  margin: 3em 0;
+  margin: 0;
+}
+
+#publications ul {
+  margin-top: 0;
 }
 
 #publications ul li {
