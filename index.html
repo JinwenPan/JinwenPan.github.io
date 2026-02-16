@@ -2,22 +2,41 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jinwen Pan</title>
+  <meta name="description"
+    content="Jinwen Pan - PhD student at Rutgers University researching high-performance computing and machine learning.">
+  <meta name="theme-color" content="#121212" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jinwen Pan" />
+  <meta property="og:description"
+    content="PhD student at Rutgers University researching high-performance computing and machine learning." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jinwenpan.github.io/" />
+  <meta property="og:image" content="https://jinwenpan.github.io/images/portrait.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Jinwen Pan" />
+  <meta name="twitter:description"
+    content="PhD student at Rutgers University researching high-performance computing and machine learning." />
+  <meta name="twitter:image" content="https://jinwenpan.github.io/images/portrait.jpg" />
+
+  <link rel="canonical" href="https://jinwenpan.github.io/" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon.ico" />
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V676JC0R5K"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-V676JC0R5K');
   </script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Jinwen Pan</title>
-  <meta name="description"
-    content="Jinwen Pan - PhD student at Rutgers University researching high-performance computing and machine learning.">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="images/favicon.ico" />
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -28,7 +47,8 @@
         "name": "Rutgers University"
       },
       "jobTitle": "PhD Student",
-      "url": "https://JinwenPan.github.io",
+      "url": "https://jinwenpan.github.io",
+      "image": "https://jinwenpan.github.io/images/portrait.jpg",
       "sameAs": [
         "https://github.com/JinwenPan",
         "https://scholar.google.com/citations?hl=en&user=aZblD2cAAAAJ",
@@ -54,20 +74,21 @@
         Prof. Michael Bader. </p>
 
       <p class="monolinks">
-        <a href="https://scholar.google.com/citations?hl=en&user=aZblD2cAAAAJ" target="_blank">Google Scholar</a>
+        <a href="https://scholar.google.com/citations?hl=en&user=aZblD2cAAAAJ" target="_blank"
+          rel="noopener noreferrer">Google Scholar</a>
         &bullet;
-        <a href="https://github.com/JinwenPan" target="_blank">GitHub</a> &bullet;
-        <a href="https://www.linkedin.com/in/jinwen-pan-888850239/" target="_blank">LinkedIn</a> &bullet;
+        <a href="https://github.com/JinwenPan" target="_blank" rel="noopener noreferrer">GitHub</a> &bullet;
+        <a href="https://www.linkedin.com/in/jinwen-pan-888850239/" target="_blank"
+          rel="noopener noreferrer">LinkedIn</a> &bullet;
         <span id="email-link"></span>
       </p>
     </section>
 
     <section id="news">
-      <h2>News...</h2>
+      <h2 id="news-toggle">News...</h2>
       <ul>
         <li><span class="news-date">202508:</span> Started my PhD at Rutgers.</li>
-        <li><span class="news-date">202506:</span> My first paper was accepted to SC25. Thanks to all collaborators.
-        </li>
+        <li><span class="news-date">202506:</span> My first paper was accepted to SC25. Thanks to all collaborators.</li>
         <li><span class="news-date">202411:</span> Launched this space.</li>
       </ul>
     </section>
@@ -83,26 +104,27 @@
           <div><em>The International Conference for High Performance Computing, Networking, Storage, and Analysis</em>
           </div>
           <div class="monolinks">
-            <a href="https://dl.acm.org/doi/10.1145/3712285.3759798" target="_blank">Paper</a> &bullet;
-            <!-- <a href="https://github.com/JinwenPan" target="_blank">Slides</a> &bullet; -->
-            <a href="https://github.com/JinwenPan/gpu-lossy-compression" target="_blank">Code</a>
+            <a href="https://dl.acm.org/doi/10.1145/3712285.3759798" target="_blank" rel="noopener noreferrer">Paper</a> &bullet;
+            <a href="https://github.com/JinwenPan/gpu-lossy-compression" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </li>
       </ul>
     </section>
 
-    <footer>
-      <!-- <p class="floating-text">
-        <span>we</span> <span>all</span> <span>float</span> <span>in</span> <span>space</span>
-      </p> -->
-      <p>just floating. </p>
-    </footer>
-
   </main>
 
-  <script src="./js/three.min.js"></script>
-  <script src="./js/background.js"></script>
-  <script src="./js/email_generator.js"></script>
+  <footer>
+    <p>just floating.</p>
+  </footer>
+
+  <noscript>
+    <style>body { background-color: #121212; }</style>
+  </noscript>
+
+  <script src="js/three.min.js" defer></script>
+  <script src="js/background.js" defer></script>
+  <script src="js/email_generator.js" defer></script>
+  <script src="js/news_toggle.js" defer></script>
 
 </body>
 
